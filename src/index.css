@@ -1,0 +1,21 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+:root {
+    --color-primary: #5044E5;
+}
+.dark {
+    --color-primary: #5044E5;
+}
