@@ -34,7 +34,7 @@ const Services = () => {
     viewport={{once: true}}
     transition={{staggerChildren: 0.2}}
     id='services' className='relative flex items-center flex-col gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-[120px] text-gray-700 dark:text-white'> 
-<img src={assets.bgImage2} alt="" className='absolute -top-[440px] -left-[280px] -z-[1] dark:hidden' />
+<img src={assets.bgImage2} alt="background image 2" className='absolute -top-[440px] -left-[280px] -z-[1] dark:hidden' />
 <Title title='How can we help?' desc='From strategy to execution, we craft digital solutions that move your business forward.'/>
     <div className='flex flex-col md:grid grid-cols-2'>
         {servicesData.map((service, index) => (

@@ -27,7 +27,7 @@ const Navbar = ({theme, setTheme}) => {
     <ThemetoggleBtn theme={theme} setTheme={setTheme}/>
     <img src={theme === 'dark' ? assets.menu_icon_dark : assets.menu_icon} alt="menu icon" className='w-8 sm:hidden' onClick={()=> {setSidebaropen(true)}} />
     <a href="#contact" className='text-sm max-sm:hidden flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full cursor-pointer hover:scale-105 transition-all'>
-      Connect <img src={assets.arrow_icon} width={14}  />
+      Connect <img src={assets.arrow_icon} alt="arrow icon" width={14}  />
     </a>
    </div>
     </motion.div>

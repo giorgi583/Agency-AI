@@ -11,7 +11,7 @@ whileInView={{opacity: 1, y: 0}}
 transition={{duration: 0.5, delay: 0.7}}
 viewport={{once: true}}
 className='inline-flex items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full'>
-  <img src={assets.group_profile} alt="" className='w-20'/>
+  <img src={assets.group_profile} alt="group profile" className='w-20'/>
   <p className='text-xs font-medium'>Trusted by 10k+ people</p>
 </motion.div>
 <motion.h1
@@ -32,8 +32,8 @@ whileInView={{opacity: 1, scale: 1}}
 transition={{duration: 0.6, delay: 2}}
 viewport={{once: true}}
    className='relative'>
-    <img src={assets.hero_img} alt="" className='w-full max-w-6xl'/>
-    <img src={assets.bgImage1} alt="" className='absolute -top-40 -right-40 sm:-top-[400px] sm:-right-[280px] -z-[1] dark:hidden'/>
+    <img src={assets.hero_img} alt="hero image" className='w-full max-w-6xl'/>
+    <img src={assets.bgImage1} alt="background image 1" className='absolute -top-40 -right-40 sm:-top-[400px] sm:-right-[280px] -z-[1] dark:hidden'/>
     </motion.div>
     </div>
   )

@@ -17,7 +17,7 @@ const Footer = ({theme}) => {
     transition={{duration: 0.6, delay: 0.2}}
     viewport={{once: true}}
     className='space-y-5 text-sm text-gray-700 dark:text-gray-400'>
-        <img src={theme === 'dark' ? assets.logo_dark : assets.logo} className='w-32 sm:w-44' />
+        <img src={theme === 'dark' ? assets.logo_dark : assets.logo} className='w-32 sm:w-44' alt="logo" />
         <p className='max-w-md'>From strategy to execution, we craft digital solutions that move your business forward.</p>
     <ul className='flex gap-8'>
         <li><a className='hover:text-primary' href="#hero">Home</a></li>
@@ -51,10 +51,10 @@ const Footer = ({theme}) => {
 className='flex justify-center pb-6 gap-4 flex-wrap sm:justify-between text-gray-500'>
     <p className='text-sm text-gray-600 dark:text-gray-400'>Copyright 2025 © agency.ai  -  All Right Reserved.</p>
     <div className='flex items-center justify-between gap-4'>
-        <img src={assets.facebook_icon} alt="" />
-        <img src={assets.twitter_icon} alt="" />
-        <img src={assets.instagram_icon} alt="" />
-        <img src={assets.linkedin_icon} alt="" />
+        <img src={assets.facebook_icon} alt="facebook icon" />
+        <img src={assets.twitter_icon} alt="twitter icon" />
+        <img src={assets.instagram_icon} alt="instagram icon" />
+        <img src={assets.linkedin_icon} alt="linkedin icon" />
     </div>
 </motion.div>
     </motion.div>

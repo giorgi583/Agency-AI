@@ -30,7 +30,7 @@ viewport={{once: true}}
       }
     }
     transition={{duration: 0.4}}
-    key={index} src={logo} alt="" className='max-h-5 sm:max-h-6 dark:drop-shadow-xl' />
+    key={index} src={logo} alt="company logo" className='max-h-5 sm:max-h-6 dark:drop-shadow-xl' />
 ))}
         </motion.div>
     </motion.div>

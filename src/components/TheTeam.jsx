@@ -19,7 +19,7 @@ brand’s success.'/>
         transition={{duration: 0.4, delay: index*0.1}}
         viewport={{once: true}}
         key={index} className='flex max-sm:flex-col items-center gap-5 bg-white dark:bg-gray-900 p-4 rounded-xl border border-gray-100 dark:border-gray-700 shadow-xl shadow-gray-100 dark:shadow-white/5 hover:scale-105 duration-400 transition-all'>
-            <img src={team.image} alt="" className='w-10 h-10 rounded-full'/>
+            <img src={team.image} alt="team image" className='w-10 h-10 rounded-full'/>
         <div className='flex flex-col items-center'>
             <h3 className='text-sm font-medium mb-2'>{team.name}</h3>
             <p className='text-xs opacity-60'>{team.title}</p>

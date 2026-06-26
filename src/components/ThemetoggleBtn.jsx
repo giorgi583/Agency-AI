@@ -16,7 +16,7 @@ const ThemetoggleBtn = ({theme, setTheme}) => {
   return (
     <>
     <button>
-{theme === 'dark' ? <img onClick={()=> {setTheme('light')}} className='size-8.5 p-1.5 border border-gray-500 rounded-full' src={assets.sun_icon} alt="sun icon" /> : <img onClick={()=> {setTheme('dark')}} className='size-8.5 p-1.5 border border-gray-500 rounded-full' src={assets.moon_icon} alt="moon icon" />}
+{theme === 'dark' ? <img alt="sun icon" onClick={()=> {setTheme('light')}} className='size-8.5 p-1.5 border border-gray-500 rounded-full' src={assets.sun_icon} /> : <img alt="moon icon" onClick={()=> {setTheme('dark')}} className='size-8.5 p-1.5 border border-gray-500 rounded-full' src={assets.moon_icon} />}
     </button>
     </>
   )

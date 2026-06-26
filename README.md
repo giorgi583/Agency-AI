@@ -1,16 +1,141 @@
-# React + Vite
+# 🤖 AI Agency Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive single-page landing page built with **React**, **Vite**, and **Tailwind CSS**. The project showcases a fictional AI agency through smooth animations, interactive UI elements, and a clean, modern design focused on user experience.
 
-Currently, two official plugins are available:
+> **Note:** This is a frontend-only project intended to demonstrate responsive layouts, animations, and interactive web design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Landing Page
 
-## Expanding the ESLint configuration
+* Modern single-page layout
+* Fully responsive design
+* Clean and minimal UI
+* Smooth scrolling experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Animations
+
+* Scroll-triggered animations
+* Smooth section transitions
+* Interactive motion effects
+* Animated content as it enters the viewport
+
+### User Experience
+
+* Custom animated cursor
+* Dark/Light theme
+* Toast notifications
+* Responsive navigation
+
+---
+
+## 🛠️ Built With
+
+* React
+* Vite
+* Tailwind CSS
+
+---
+
+## 📦 Dependencies
+
+* motion
+* react-hot-toast
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js
+* npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/giorgi583/Agency-AI.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd ai-agency-landing-page
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+*(Project structure may vary depending on your implementation.)*
+
+---
+
+## 🌟 Main Functionality
+
+* Explore a modern AI agency landing page
+* Experience smooth scroll-triggered animations
+* Switch between dark and light themes
+* Interact with a custom animated cursor
+* Receive toast notifications for user interactions
+* Browse a fully responsive interface across desktop, tablet, and mobile devices
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of the application here.
+
+```text
+Hero Section
+Services
+About
+Testimonials
+Dark Mode
+Mobile View
+```
+
+---
+
+## 📄 License
+
+This project was developed for educational and portfolio purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Giorgi Kutateladze**
+
+GitHub: https://github.com/giorgi583
